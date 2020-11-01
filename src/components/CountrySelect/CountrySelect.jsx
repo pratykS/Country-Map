@@ -12,6 +12,18 @@ const countryList = [
   { label: "India", value: "in" },
 ];
 
+/**
+ *
+ * @param {setCountry,setCenter} props
+ *
+ * Country select - which fetches country data from rest api  (https://restcountries.eu)
+ *
+ * Country selection updates the country data in redux store and brings map in the viewport
+ *
+ * Map Center point is set , which fetches the live time of the selected country from the coordinates
+ *
+ */
+
 const CountrySelect = (props) => {
   const { setCountry, setCenter } = props;
 

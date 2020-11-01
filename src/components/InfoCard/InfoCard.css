@@ -10,7 +10,7 @@
   font-weight: bold;
   height: auto;
   width: auto;
-  transition: width 2s;
+  transition: 0.3s;
 }
 
 .infoCardTitle {

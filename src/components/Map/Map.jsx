@@ -11,6 +11,14 @@ const styles = {
 
 const access_token = Config["mapbox.token"];
 
+/**
+ *
+ * @param {activeCountry,mapData} props
+ *
+ * Map Component
+ *
+ */
+
 const Map = (props) => {
   const [map, setMap] = useState(null);
   const mapContainer = useRef(null);

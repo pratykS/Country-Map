@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
+/**
+ *
+ * Simple Dragable panel - initialized with starting postion coordinates
+ *
+ */
 class Draggable extends React.Component {
   constructor(props) {
     super(props);

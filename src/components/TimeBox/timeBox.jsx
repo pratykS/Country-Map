@@ -12,6 +12,15 @@ const dayMapping = {
   6: "Saturday",
 };
 
+/**
+ *
+ * @param {latitude,longitude} props
+ *
+ * Timebox components shows the live time of selected country .
+ *
+ * Live time is fetched using the center coordinates
+ *
+ */
 const TimeBox = (props) => {
   const { latitude, longitude } = props;
 

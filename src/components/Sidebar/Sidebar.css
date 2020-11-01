@@ -1,5 +1,5 @@
 .sidebar {
-  width: 60px;
+  width: 50px;
   height: 100%;
   background: #0f1621;
   position: absolute;
@@ -10,7 +10,7 @@
 }
 
 .sidebarExpand {
-  width: 160px;
+  width: 150px;
   height: 100%;
   background: #0f1621;
   position: absolute;
@@ -26,7 +26,7 @@
   display: block;
   transition: 0.3s;
   text-align: center;
-  width: 59px;
+  width: 49px;
   height: 50px;
   line-height: 50px;
   cursor: pointer;
@@ -34,6 +34,7 @@
   border: 0;
   padding: 5px;
   outline: none;
+  font-size: 20px;
 }
 
 .sidebarExpand button {
@@ -42,7 +43,7 @@
   display: block;
   transition: 0.3s;
   text-align: center;
-  width: 159px;
+  width: 149px;
   height: 50px;
   line-height: 50px;
   cursor: pointer;
@@ -60,31 +61,32 @@
 }
 
 .sidebarExpandIcon {
-  background: black;
   z-index: 1;
   width: 15px;
-  height: 50px;
+  height: 20px;
   position: absolute;
-  left: 60px;
-  top: 50px;
-  line-height: 50px;
+  left: 50px;
+  top: 60px;
+  line-height: 15px;
   font-size: 25px;
-  padding: 0 5px;
+  padding: 5px;
   color: white;
   cursor: pointer;
+  background: #0f1621;
 }
 
 .sidebarExpandedIcon {
-  background: black;
   z-index: 1;
   width: 15px;
-  height: 50px;
+  height: 20px;
   position: absolute;
-  left: 160px;
-  top: 50px;
-  line-height: 50px;
+  left: 150px;
+  top: 60px;
+  line-height: 15px;
   font-size: 25px;
-  padding: 0 5px;
+  padding: 5px;
   color: white;
   cursor: pointer;
+  background: #0f1621;
+  transition: 0.3s;
 }

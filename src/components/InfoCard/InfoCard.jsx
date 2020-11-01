@@ -1,15 +1,27 @@
 import React from "react";
+
 import Draggable from "../DraggablePanel/draggablePanel";
 import "./InfoCard.css";
 import Timebox from "../TimeBox/timeBox";
 import { connect } from "react-redux";
 import { countryInfo } from "../../services/countryInfoService";
 
+/**
+ *
+ * @param {activeCountry} props
+ *
+ * Info card - shows regional info of the chosen country
+ * Info shown - country native name , currency , currency symbol
+ * flag , population , area in sqmt, etc
+ *
+ * Live Time of selected region - Timebox component
+ *
+ * */
 const InfoCard = (props) => {
   const { activeCountry } = props;
 
   return activeCountry && activeCountry.name ? (
-    <Draggable x={300} y={50}>
+    <Draggable x={200} y={50}>
       <div className="infoCard">
         <div className="infoCardTitle">
           <span className="countryTitle">{activeCountry.name}</span>
@@ -82,6 +94,7 @@ const InfoCard = (props) => {
             </React.Fragment>
           )}
         </div>
+        {/* Time shown of the active country - fetched using coordinates */}
         <Timebox
           longitude={activeCountry.latlng[1]}
           latitude={activeCountry.latlng[0]}

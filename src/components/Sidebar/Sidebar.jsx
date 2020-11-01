@@ -10,6 +10,16 @@ const sidebarOptions = [
   { label: "Satellite", value: "satellite-v9", icon: "🚀" },
 ];
 
+/**
+ *
+ * @param {setTheme} props
+ *
+ * Sidebar component - collapsible
+ *
+ * menu options to switch map theme - dark, light , sattelite , streets view
+ *
+ */
+
 const Sidebar = (props) => {
   const { setTheme } = props;
 
@@ -26,6 +36,7 @@ const Sidebar = (props) => {
   return (
     <React.Fragment>
       <span
+        title="Click to expand"
         onClick={sidebarExpand}
         className={expand ? "sidebarExpandedIcon" : "sidebarExpandIcon"}
       >

@@ -5,6 +5,11 @@ import Map from "./Map/Map";
 import CSelect from "./CountrySelect/CountrySelect";
 import InfoCard from "./InfoCard/InfoCard";
 
+/**
+ *
+ * App Container - contains the component
+ *
+ */
 const App = () => (
   <div>
     <Topbar></Topbar>
