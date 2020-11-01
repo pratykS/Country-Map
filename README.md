@@ -1,7 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project includes a Map which has search functionality along with navigation controls like zoom-in and zoom-out
-A timebox whic shows the time of a particular point in ISO1806 format.
+This project includes a Map which has which selects the country and navigate to that area , map theme change option.
 
 ## Available Scripts
 
