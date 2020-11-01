@@ -1,7 +1,7 @@
 const initialState = {
   theme: "streets-v11",
   center: [72.805,19.1593],
-  zoomLevel:12
+  zoomLevel:10
 }
 
 const mapData = (state = initialState, action) => {
