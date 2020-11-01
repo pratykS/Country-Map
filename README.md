@@ -6,6 +6,8 @@ This project includes a Map which has which selects the country and navigate to 
 Display information of a selected area on a draggable card .
 Information shown - Native Name, Flag , Currency , Currency Symbol , Area , Population , Timezones and Live Clock
 
+Project Link : [Country Map](https://gssns.csb.app/)
+
 ## Project Components & Its features
 
 - Country select - Country Selection - On country selection - selected country appears in the viewport
