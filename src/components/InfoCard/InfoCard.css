@@ -1,0 +1,45 @@
+.infoCard {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  z-index: 1 !important;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+  transition: width 2s;
+}
+
+.infoCardTitle {
+  padding: 10px;
+  height: auto;
+  background: black;
+  text-align: center;
+  line-height: 30px;
+}
+
+.infoCardBody {
+  padding: 10px;
+  background: inherit;
+}
+
+.countryFlag {
+  /* width: 30px; */
+  height: 30px;
+  float: right;
+}
+.countryTitle {
+  padding: 10px;
+}
+
+.chipStyle {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background: black;
+  margin: 2px;
+  display: inline-block;
+}

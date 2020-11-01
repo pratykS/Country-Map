@@ -1,0 +1,90 @@
+.sidebar {
+  width: 60px;
+  height: 100%;
+  background: #0f1621;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.sidebarExpand {
+  width: 160px;
+  height: 100%;
+  background: #0f1621;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.sidebar button {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  width: 59px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  background: inherit;
+  border: 0;
+  padding: 5px;
+  outline: none;
+}
+
+.sidebarExpand button {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  width: 159px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  background: inherit;
+  border: 0;
+  padding: 5px;
+  outline: none;
+}
+
+.sidebar button:hover {
+  background: black;
+}
+.sidebarExpand button:hover {
+  background: black;
+}
+
+.sidebarExpandIcon {
+  background: black;
+  z-index: 1;
+  width: 15px;
+  height: 50px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  padding: 0 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebarExpandedIcon {
+  background: black;
+  z-index: 1;
+  width: 15px;
+  height: 50px;
+  position: absolute;
+  left: 160px;
+  top: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  padding: 0 5px;
+  color: white;
+  cursor: pointer;
+}
